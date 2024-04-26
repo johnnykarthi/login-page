@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar {
+    padding: 1rem 5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    -webkit-box-shadow: 1px 5px 44px -18px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 1px 5px 44px -18px rgba(0, 0, 0, 0.54);
+    box-shadow: 1px 5px 44px -18px rgba(0, 0, 0, 0.54);
+}
+
+.navbar-items {
+    display: flex;
+    width: 30rem;
+}
+
+.navbar-items>ul {
+    list-style: none;
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-items>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-icons>div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 225, 225);
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.navbar-profile {
+    padding: 0 20px;
+    display: flex;
+}
+
+.navbar-profile>img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.main-layout{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.login{
+    width: 30%;
+    text-align: center;
+}
+
+.banner > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-layout{
+    padding: 1rem 0;
+}
+
+.form-layout > h3{
+    color: rgb(52, 52, 52);
+}
+
+
+.user-group{
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.password-group{
+    text-align: left;
+    padding: 1rem 0;
+}
+
+
+
+.input-style{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid rgb(171, 171, 171);
+    margin-top:10px ;
+}
+
+.input-style:focus{
+    border: 2px solid rgb(128, 89, 255);
+    outline: none;
+}
+
+.sign-button > button{
+    width: 100%;
+    padding: .7rem;
+    background-color: rgb(128, 89, 255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.form-layout > p {
+    color: rgb(140, 140, 140);
+    padding: 1rem 0;
+}
+
+
+.account-box{
+    display: inline-block;
+    width: 40%;
+    margin: .5rem;
+    padding: 1rem;
+    border: 1px solid rgb(117, 117, 117);
+}
+
+.footer-links{
+    padding: 1rem;
+}
+
+.footer-links > p {
+    margin: .7rem;
+}
+
+.footer-links > p > a {
+    text-decoration: none;
+}
